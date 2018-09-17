@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@android:color/white">
+
+
+        <com.enjoylife.ironghui.enjoylife.mainactivity.MyViewPager
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+
+            android:layout_above="@+id/tablelaout"
+            android:layout_centerInParent="true"
+
+            android:background="@android:color/white">
+
+        </com.enjoylife.ironghui.enjoylife.mainactivity.MyViewPager>
+
+        <LinearLayout
+            android:id="@+id/tablelaout"
+            android:layout_width="fill_parent"
+            android:layout_height="56dp"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/white"
+            android:orientation="vertical">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="#a7a1a1" />
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentBottom="true"
+                android:background="#f8f8f8"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/Home_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/Home_button_ico"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:background="@mipmap/home_button_ico_down" />
+
+                    <TextView
+                        android:id="@+id/Home_button_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingTop="3dp"
+                        android:text="首页"
+                        android:textColor="#4a4f91"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ClassiFication_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ClassiFication_button_ico"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:background="@mipmap/home_button_ico_down" />
+
+                    <TextView
+                        android:id="@+id/ClassiFication_button_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingTop="3dp"
+                        android:text="分类"
+                        android:textColor="#838282"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+                <!--日历-->
+                <LinearLayout
+                    android:id="@+id/ShoppingCart_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/ShoppingCart_button_ico"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:background="@mipmap/home_button_ico_down" />
+
+                    <TextView
+                        android:id="@+id/ShoppingCart_button_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingTop="3dp"
+                        android:text="购物车"
+                        android:textColor="#4a4f91"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/PersonAlcenter_button"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/PersonAlcenter_button_ico"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_gravity="center"
+                        android:background="@mipmap/home_button_ico_down" />
+
+                    <TextView
+                        android:id="@+id/PersonAlcenter_button_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:paddingTop="3dp"
+                        android:text="个人中心"
+                        android:textColor="#838282"
+                        android:textSize="11sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>
