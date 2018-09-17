@@ -39,8 +39,6 @@ public class Home_Fragment extends Fragment {
         mHome_listview_adapter = new home_listview_adapter(getActivity().getBaseContext());
         mHome_Listview.setAdapter(mHome_listview_adapter);
 
-
-//        Init(view);
         return view;
     }
 
