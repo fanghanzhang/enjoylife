@@ -30,9 +30,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
-/**
- * Created by heyu on 2018/8/3.
- */
+
 
 public class ClassiFication_Fragment extends Fragment {
 
