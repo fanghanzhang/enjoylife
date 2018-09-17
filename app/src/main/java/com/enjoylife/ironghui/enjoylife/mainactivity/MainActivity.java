@@ -23,9 +23,6 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
 
-/**
- * Created by heyu on 2018/8/3.
- */
 public class MainActivity extends FragmentActivity {
 
     private int currentTabIndex;

@@ -35,7 +35,6 @@
                 android:background="#a7a1a1" />
 
 
-
             <LinearLayout
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
@@ -56,7 +55,7 @@
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center"
-                        android:background="@mipmap/home_button_ico_down" />
+                        android:background="@drawable/main_hover" />
 
                     <TextView
                         android:id="@+id/Home_button_text"
@@ -83,7 +82,7 @@
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center"
-                        android:background="@mipmap/home_button_ico_down" />
+                        android:background="@drawable/catogary_hover" />
 
                     <TextView
                         android:id="@+id/ClassiFication_button_text"
@@ -110,7 +109,7 @@
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center"
-                        android:background="@mipmap/home_button_ico_down" />
+                        android:background="@drawable/car_hover" />
 
                     <TextView
                         android:id="@+id/ShoppingCart_button_text"
@@ -138,7 +137,7 @@
                         android:layout_width="30dp"
                         android:layout_height="30dp"
                         android:layout_gravity="center"
-                        android:background="@mipmap/home_button_ico_down" />
+                        android:background="@drawable/person_hover" />
 
                     <TextView
                         android:id="@+id/PersonAlcenter_button_text"

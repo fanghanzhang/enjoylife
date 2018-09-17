@@ -46,9 +46,7 @@ public class MainFragment_Adapter extends FragmentPagerAdapter {
 
 	@Override
 	public Object instantiateItem(View container, int position) {
-		// TODO Auto-generated method stub
-		Fragment fragment = (Fragment) super.instantiateItem(container,
-				position);
+		Fragment fragment = (Fragment) super.instantiateItem(container,position);
 		String fragmentTag = fragment.getTag();
 		FragmentTransaction ft = fm.beginTransaction();
 		ft.remove(fragment);
